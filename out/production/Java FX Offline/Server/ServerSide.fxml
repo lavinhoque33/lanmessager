@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="303.0" prefWidth="515.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Server.ServerSide">
+   <children>
+      <ListView fx:id="clientList" layoutX="14.0" layoutY="17.0" prefHeight="276.0" prefWidth="169.0" />
+      <Label fx:id="warningLabelEmpty" layoutX="202.0" layoutY="186.0" prefHeight="40.0" prefWidth="119.0" text="Please Select a Client" textFill="#ff0606" visible="false" />
+      <Button fx:id="exitButton" layoutX="202.0" layoutY="253.0" mnemonicParsing="false" onAction="#closeServer" prefHeight="24.0" prefWidth="119.0" text="Exit" />
+      <TextArea fx:id="logwindow" layoutX="337.0" layoutY="37.0" prefHeight="248.0" prefWidth="154.0" />
+   </children>
+</AnchorPane>

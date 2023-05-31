@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="318.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.blockcontroller">
+   <children>
+      <ListView fx:id="blockArea" layoutX="14.0" layoutY="18.0" prefHeight="403.0" prefWidth="154.0" />
+      <Button fx:id="unblockbutton" layoutX="197.0" layoutY="74.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#unblockaction" prefHeight="79.0" prefWidth="90.0" text="Unblock" textFill="#21b539">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="returnbutton" layoutX="197.0" layoutY="355.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#returnaction" prefHeight="66.0" prefWidth="90.0" text="Return" textFill="#c62a2a" />
+   </children>
+</AnchorPane>
